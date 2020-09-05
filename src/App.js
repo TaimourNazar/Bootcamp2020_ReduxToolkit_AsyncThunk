@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Todos } from "./components/Todo";
-import MirageServer from "./mirage";
-
-MirageServer()
+import Counter from './components/Counter';
 
 function App() {
   return (
-    <div className="App">
-      <Todos/>
+    <div>
+      Hello App Component
+      <Counter/>
     </div>
   );
 }
