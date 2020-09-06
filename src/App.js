@@ -5,7 +5,7 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div>
-      Hello App Component
+      React, Redux-Toolkit, Mirage, AsyncThunk
       <Counter/>
     </div>
   );
